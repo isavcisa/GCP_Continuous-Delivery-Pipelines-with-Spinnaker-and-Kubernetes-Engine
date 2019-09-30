@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: gcr.io/PROJECT/sample-app
+        image: gcr.io/qwiklabs-gcp-8e4f2025034c38f3/sample-app
         resources:
           limits:
             memory: "500Mi"
